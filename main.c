@@ -6,5 +6,6 @@ int main(){
     printf("hh");
     printf("Boiii");
     printf("Luffy Pirate King");
+    printf("Barbie");
     return 0;
 }
