@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include "stack.h"
+
 int main(){
-    printf("Hello World");
-    printf("Boiii");
-    printf("Luffy Pirate King");
-    printf("hh");
-    printf("Boiii");
-    printf("Luffy Pirate King");
-    printf("Barbie");
-    return 0;
+    stack *s = (stack *)malloc(sizeof(stack));
+    createStack(s);
+    push(s,5);
+    push(s,2);
+    printStack(s);
 }
